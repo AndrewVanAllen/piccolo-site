@@ -1,0 +1,83 @@
+/* *
+ *
+ * * Custom CSS for Piccolo demo
+ *
+ * *
+ *
+ * */
+.index .links .button {
+  color: #fff;
+  border-color: #fff;
+}
+.index .links .button:hover {
+  border-color: #222;
+}
+
+.download-page .downloads {
+  padding: 1rem 0;
+}
+.download-page .downloads p {
+  margin-bottom: 4rem;
+}
+.download-page .links {
+  padding: 0rem 0;
+  background-image: none;
+  color: inherit;
+}
+
+.download-buttons ul {
+  list-style: none;
+  padding-left: 0;
+}
+@media (min-width: 650px) {
+  .download-buttons ul li {
+    display: inline-block;
+  }
+}
+.download-buttons ul li a.button {
+  margin-bottom: 2rem;
+}
+
+.nav {
+  text-align: center;
+}
+
+.info, .downloads {
+  padding: 2rem 0;
+}
+
+.info {
+  text-align: center;
+}
+.info i {
+  font-size: 8rem;
+  margin-bottom: 1.5rem;
+}
+
+.about, .downloads, .info {
+  border-bottom: 1px dashed #ccc;
+  padding: 4rem 0;
+}
+
+.links {
+  background-image: url("../img/info.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 4rem 0;
+}
+@media (max-width: 550px) {
+  .links {
+    text-align: center;
+  }
+}
+
+.github {
+  padding-top: 1.25em;
+}
+
+.example {
+  background-color: #ccc;
+  color: #222;
+  border-radius: 2px;
+  text-align: center;
+}

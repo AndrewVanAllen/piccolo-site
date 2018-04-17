@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Piccolo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/piccolo.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+  </head>
+  <body class="index">
+    <section class="nav big">
+      <div class="container">
+        <div class="row">
+          <h1 class="title"><a href="./index.html">Piccolo</a></h1>
+        </div class="row">
+      </div>
+    </section>
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <h3>What is Piccolo?</h3>
+          <p>
+            Piccolo is a lightweight CSS framework meant to give you a
+            jumpstart in your development. Piccolo is not meant to be an all
+            encompasing CSS framework, such as Bootstrap. If you want a
+            framework with just the basics, Piccolo is for you.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="info">
+      <div class="container">
+        <div class="row">
+          <div class="column one-fourth">
+            <i class="fa fa-leaf" aria-hidden="true"></i>
+            <h5>Lightweight</h5>
+            <p>Light as a leaf.</p>
+          </div>
+          <div class="column one-fourth">
+            <i class="fa fa-circle-thin" aria-hidden="true"></i>
+            <h5>Simple</h5>
+            <p>Just the basics.</p>
+          </div>
+          <div class="column one-fourth">
+            <i class="fa fa-mobile" aria-hidden="true"></i>
+            <h5>Responsive</h5>
+            <p>Changes with the times (or device).</p>
+          </div>
+          <div class="column one-fourth">
+            <i class="fa fa-lemon-o" aria-hidden="true"></i>
+            <h5>Clean</h5>
+            <p>Crisp as a glass of lemonade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="docs">
+      <div class="container">
+        <div class="row title">
+          <h3>Documentation</h3>
+        </div>
+        <div class="row column-example">
+          <h4>Columns</h4>
+          <p>
+            Piccolo uses a standard column setup similar to other CSS frameworks.
+            There are 12 columns in the grid that automatically stretch to fit
+            the browser.
+          <p>
+          <div class="row">
+            <div class="column nine example"><p>nine</p></div>
+            <div class="column three example"><p>three</p></div>
+          </div>
+          <div class="row">
+            <div class="column two example"><p>two</p></div>
+            <div class="column ten example"><p>ten</p></div>
+          </div>
+          <div class="row">
+            <div class="column half example"><p>half</p></div>
+            <div class="column half example"><p>half</p></div>
+          </div>
+          <div class="row">
+            <div class="column nine offset-three example"><p>nine (offset three)</p></div>
+          </div>
+          <div class="row">
+            <p>
+              To create a column, simply use the <span class="code">column</span>
+              class. Example (from above):
+<pre class="code prettyprint">
+<code>
+ &lt;div class="row"&gt;
+   &lt;div class="column nine example"&gt;&lt;p&gt;nine&lt;/p&gt;&lt;/div&gt;
+   &lt;div class="column three example"&gt;&lt;p&gt;three&lt;/p&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="row"&gt;
+   &lt;div class="column two example"&gt;&lt;p&gt;two&lt;/p&gt;&lt;/div&gt;
+   &lt;div class="column ten example"&gt;&lt;p&gt;ten&lt;/p&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="row"&gt;
+   &lt;div class="column half example"&gt;&lt;p&gt;half&lt;/p&gt;&lt;/div&gt;
+   &lt;div class="column half example"&gt;&lt;p&gt;half&lt;/p&gt;&lt;/div&gt;
+ &lt;/div&gt;
+ &lt;div class="row"&gt;
+   &lt;div class="column nine offset-three example"&gt;&lt;p&gt;nine (offset three)&lt;/p&gt;&lt;/div&gt;
+ &lt;/div&gt;
+</code>
+</pre>
+            <p>If you need more help, just refer to <span class="code">piccolo.css</span>
+          </div>
+        </div>
+        <div class="row tables-example">
+          <h4>Tables</h4>
+          <div class="row">
+            <p>Normal</p>
+            <p><span class="code">&lt;table&gt;</span></p>
+            <table>
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+              </tr>
+            </table>
+          </div>
+          <div class="row">
+            <p>Striped</p>
+            <p><span class="code">&lt;table class="striped"&gt;</span></p>
+            <table class="striped">
+              <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+              </tr>
+              <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+              </tr>
+              <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+              </tr>
+              <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>80</td>
+              </tr>
+            </table>
+          </div>
+          <p>More table styles are to be added soon!</p>
+        </div>
+      </div>
+    </section>
+    <section class="links">
+      <div class="container">
+        <div class="row">
+          <div class="column half">
+            <h3>Download!</h3>
+            <p>If you want a head start in your site development, start with Piccolo.</p>
+          </div>
+          <div class="column half">
+            <h3>Need help?</h3>
+            <p>Piccolo has everything you need in right the documentation.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column half">
+            <a class="button" href="https://github.com/AndrewVanAllen/piccolo-css/">Download (GitHub)</a>
+          </div>
+          <div class="column half">
+            <a class="button" href="https://github.com/AndrewVanAllen/piccolo-css/blob/master/README.md">Read (GitHub)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

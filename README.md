@@ -1,2 +1,2 @@
 # piccolo-site
-Source for the Piccolo site [here](piccolocss.ga)
+Source for the Piccolo site [here](http://piccolocss.ga)
